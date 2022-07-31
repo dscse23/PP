@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAGE 1</title>
+
+    <style>
+        * {
+            background-color: black;
+            color: aquamarine
+        }
+        
+        input {
+            background-color: white;
+            color: black
+        }
+    </style>
+
+</head>
+
+<script>
+    function verifyPassword() {
+        var pw = document.getElementById("pswd").value;
+        if (pw == "4281") {
+            document.getElementById("message").innerHTML = "Yay";
+            return true;
+        }
+    }
+</script>
+
+<body>
+    <center>
+
+        <form onsubmit="return verifyPassword()" , action="second.html">
+
+            <td>Enter the passcode</td>
+            <input type="password" id="pswd" value="">
+            <p id="message" style="color:red"> </p> <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </center>
+</body>
+
+</html>
