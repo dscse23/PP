@@ -1,0 +1,23 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+h3 {
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+}
+
+.second-p {
+    line-height: 1.8;
+}
+
+a {
+    background-color: antiquewhite;
+    padding: 10px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 30px;
+}
