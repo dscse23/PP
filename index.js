@@ -4,4 +4,7 @@
             document.getElementById("message").innerHTML = "Yay";
             return true;
         }
+        else {
+            return false;
+        }
     }
